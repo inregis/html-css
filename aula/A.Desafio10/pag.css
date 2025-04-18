@@ -1,0 +1,121 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'idroid';
+    src: url('fontes/idroid.otf') format('opentype');
+}
+body {
+    background-color: #7bf0f8;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.527);
+    color: white;
+    font-weight: normal;
+    
+}
+h2 {
+    font-family: 'idroid';
+    color: rgb(19, 0, 128);
+}
+h3 {
+    font-family: 'idroid';
+    
+    color: green;
+}
+header {
+    background-image: linear-gradient(to top, rgb(4, 15, 78), #49faf1);
+    padding: 10px;
+    margin: 0px;
+}
+header > p {
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
+main {
+    background-color: white;
+    margin: auto;
+    padding: 20px;
+    border-top: 0px;
+    box-shadow: 1px 1px 2px 2px #0000005b;
+    max-width: 1000px;
+}
+a {
+    text-decoration: none;
+    color: green;
+    font-weight: bold;
+}
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-right: 60px;
+}
+nav > a:hover {
+    background-color: aqua;
+    padding: 4px 8px 4px 8px;
+    text-decoration: underline;
+    color: blue;
+    border-radius: 4px;
+}
+article {
+    background-color: #83f3b57c;
+    padding: 0px 10px;
+    margin: 0px 15px 0px 15px;
+    box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.301);
+    border-radius: 15px;
+}
+article > h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 10px;
+    color: white;
+    padding: 7px;
+    margin: 0px -10px;
+    border-radius: 15px 15px 0px 0px;   
+}
+article > a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    padding: 0px;
+    margin: 0px;
+}
+a > img {
+    padding: 25px 0px 0px 0px;
+}
+section {
+    background-color: green;
+    padding: 15px 100px 15px 100px;
+    margin: 0px -20px 15px -20px;
+}
+footer {
+    background-color: green;
+    color: white;
+    text-align: center;
+    padding: 7px;
+}
+footer > p {
+    padding: 1px;
+}
+.basico {
+    font-weight: bold;
+}
+.cor {
+    color: green;
+    font-weight: bold;
+}
+.degrade {
+    background-image: linear-gradient(to left, rgb(132, 238, 132), rgb(227, 247, 227) );
+}
+.duro {
+    background-color: green;
+}
+.none{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(13, 0, 128);
+    font-weight: bold;
+}
+
