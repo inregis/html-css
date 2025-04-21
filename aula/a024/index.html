@@ -6,6 +6,10 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <title>Sobre imagem de fundo</title>
     <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+        }
         body {
             height: 100vh;
             background-color: black;
@@ -21,7 +25,8 @@
             border-radius: 20px;
             box-shadow: 1px 1px 2px #00000079;
             width: 615px;
-            padding: 15px;
+            height: 200px;
+            padding: 20px;
             margin: auto;
         }
         h1 {
@@ -30,15 +35,21 @@
             color: white;
             text-align: center;
             font-weight: normal;
+            padding-top: 20px;
             font-size: 2em;
         }
         p {
             font-family: Arial, Helvetica, sans-serif;
             color: white;
+            text-align: center;
             font-weight: normal;
             font-size: 1.2em;
+            padding-top: 20px;
         }
-        main > a {
+        nav {
+            padding-top: 80px;
+        }
+        nav a {
             background-color: aqua;
             color: blue;
             font-family: Arial, Helvetica, sans-serif;
@@ -47,7 +58,6 @@
             padding: 10px;
             border-radius: 15px;
             transition-duration: 1s;
-            margin: auto;
         }
         a:hover {
             background-color: blue;
@@ -55,14 +65,21 @@
         }
         footer {
             background-color: blue;
-            padding: 10px;
+            padding: 20px;
             margin: 10px -10px 0px -10px;
         }
         footer > a {
+            display: inline;
             font-family: Arial, Helvetica, sans-serif;
+            font-size: 2em;
             color: white;
+            padding: 0px 20px 20px 0px;
             font-weight: bold;
             text-decoration: none;
+        }
+        img {
+            padding: 0px;
+            margin: 0px;
         }
     </style>
 </head>
@@ -70,15 +87,17 @@
     <main>
         <h1>Link das páginas de exercícios</h1>
         <p>Paginas dos exercícios de imagens de fundo no curso em vídeo.</p>
-        <a href="fundo1.html">FUNDO 01</a>
-        <a href="fundo2.html">FUNDO 02</a>
-        <a href="fundo3.html">FUNDO 03</a>
-        <a href="fundo4.html">FUNDO 04</a>
-        <a href="fundo5.html">FUNDO 05</a>
-        <a href="fundo6.html">FUNDO 06</a>
+        <nav>
+            <a href="fundo1.html">FUNDO 01</a>
+            <a href="fundo2.html">FUNDO 02</a>
+            <a href="fundo3.html">FUNDO 03</a>
+            <a href="fundo4.html">FUNDO 04</a>
+            <a href="fundo5.html">FUNDO 05</a>
+            <a href="fundo6.html">FUNDO 06</a>
+        </nav>
     </main>
     <Footer>
-        <a href=""><img src="" alt=""> Regis de Paula</a>
+        <a href="https://linkedin.com/in/inregis"><img src="imagens/favicon.ico " alt="icone">  Regis de Paula</a>
     </Footer>
     
 </body>
